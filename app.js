@@ -8,8 +8,8 @@ bSidesApp.init = function(){
 	$('#button').on('click', function(){
 		query = $('#search').val();
 		$('h1').empty();
-		$('h2').empty();
-		$('iframe').empty();
+		$('ul').empty();
+		// $('iframe').empty();
 		bSidesApp.getSongs(query);
 	})
 };
@@ -63,7 +63,7 @@ bSidesApp.displaySongs = function(data){
 		console.log(video);
 
 		$('h1').html(bandName);
-		$('h2').append(songName);
+		$('.list').append('<li>', songName);
 		$('#link').attr('href', video);
 		
 

@@ -1,2 +1,12 @@
-this will be my css sheet
 
+.container a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: orange;
+	font-size: 1.5em;
+}
+
+.list {
+	list-style: none
+}
