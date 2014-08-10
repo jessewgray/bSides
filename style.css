@@ -1,5 +1,9 @@
 
-.container a {
+
+.wrapper {
+	width: 800px;
+}
+.wrapper a {
 	display: block;
 	float: left;
 	text-decoration: none;
@@ -9,4 +13,24 @@
 
 .list {
 	list-style: none
+}
+
+.background {
+	background: url(images/tape2.svg);
+	background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    padding: 0;
+
+}
+
+.imputButton {
+	padding-left: 100px;
+	padding-top: 50px;
+
+}
+
+.results h1 {
+	padding-left: 100px;
 }
