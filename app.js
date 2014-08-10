@@ -63,12 +63,8 @@ bSidesApp.displaySongs = function(data){
 		console.log(video);
 
 		$('h1').html(bandName);
-		$('.list').append('<li>', songName);
-		$('#link').attr('href', video);
-		
-
-		//data[i] ===> result.toptracks.track[i]
-		// ===> reult.toptracks.track[0]
+		$('.list').append('<li class="item"><a href="' + video +'">' + songName + '</a></li>');
+		//$('#link').attr('href', video);
 
 	}
 }
